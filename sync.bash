@@ -10,14 +10,14 @@ cp ~/.inputrc           ./.inputrc
 cp ~/.gitconfig         ./.itconfig
 
 ## fish
-if [ ! -d "./.config/fish"]
+if [ ! -d "./.config/fish" ]; then
     mkdir -p ./.config/fish
 fi
 
 cp ~/.config/fish/config.fish ./.config/fish/config.fish
 
 ## ranger
-if [ ! -d "./.config/ranger"]
+if [ ! -d "./.config/ranger" ]; then
     mkdir -p ./.config/ranger
 fi
 

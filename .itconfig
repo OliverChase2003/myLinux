@@ -1,0 +1,18 @@
+[user]
+    name = OliverChase2003
+    email = oliverchase5408@gmail.com
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+
+[http]
+    proxy = http://127.0.0.1:7897       ## clash-verge
+    ## proxy = http://127.0.0.1:10809   ## v2rayN
+[https]
+    proxy = https://127.0.0.1:7897      ## clash-verge
+    ## proxy = https://127.0.0.1:10809  ## v2rayN
+
+[init]
+	defaultBranch = main
