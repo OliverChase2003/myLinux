@@ -5,6 +5,7 @@ fish_vi_key_bindings
 
 function fish_prompt
 	echo -n (set_color normal) (prompt_pwd)
+    echo -n (set_color green)(fish_git_prompt)
 	echo -n (set_color yellow) "\$ "
 end
 
