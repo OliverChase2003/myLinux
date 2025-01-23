@@ -5,6 +5,4 @@
     better syntax highlighting
 ## bash
     fzf
-## ranger
-    everything
 
